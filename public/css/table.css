@@ -1,0 +1,44 @@
+.table-container {
+    display: block;
+    margin: 12px auto;
+    width: 100%;
+    padding: 0 10px;
+    height: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+    top: 0;
+}
+table th {
+    text-align: center;
+    background-color: var(--primary-text-color);
+    position: sticky;
+    top: 0;
+    color: var(--text-primary-color);
+    line-height: 1.2;
+}
+table td, table th {
+    border: 1px solid var(--divider-color);
+    padding: 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    transition: 0.3s;
+}
+table tr:hover {
+    background-color: #ddd;
+}
+table tr + tr {
+    height: 30px;
+}
+
+
+
+

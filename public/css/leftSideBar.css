@@ -1,0 +1,37 @@
+.all-menus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.menu-item {
+    background-color: var(--text-primary-color);
+    margin: 0 10px;
+    transition: background-color 0.3s;
+    /*box-shadow: 0 0 2px var(--primary-text-color);*/
+    border-radius: 10px;
+}
+
+.menu-item a {
+    color: var(--primary-text-color);
+    font-size: 1.6rem;
+    line-height: 2;
+    padding: 2px 8px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:hover {
+    background-color: var(--dark-primary-color);
+}
+.menu-item:hover a {
+    color: var(--text-primary-color);
+}
+
+.icon {
+    margin: 0 15px 0 0;
+}

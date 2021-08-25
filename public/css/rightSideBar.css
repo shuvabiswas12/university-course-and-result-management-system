@@ -1,0 +1,63 @@
+.app-bar {
+    background-color: var(--default-primary-color);
+    padding: 10px 20px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.app-name {
+    font-size: 2rem;
+    color: var(--text-primary-color);
+    align-self: center;
+    display: block;
+}
+
+.settings-icon {
+    align-self: center;
+    margin: 0 20px 0 0;
+}
+
+.fa-user-cog {
+    color: var(--text-primary-color);
+    font-size: 4.5rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20%;
+    box-shadow: 0 0 10px var(--secondary-text-color);
+    transition: background-color 0.3s;
+}
+
+.fa-user-cog:hover {
+    background-color: var(--light-primary-color);
+    border-radius: 20%;
+}
+
+.content-header {
+    font-size: 2.6rem;
+    padding: 8px 0;
+    text-align: left;
+    text-transform: capitalize;
+    color: var(--text-primary-color);
+    background-color: var(--dark-primary-color);
+}
+
+.content-header-title {
+    width: fit-content;
+    display: inline-block;
+    padding: 6px 8px;
+}
+
+.border-bottom-3px {
+    border-bottom: 3px solid var(--dark-primary-color);
+}
+
+.button-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
